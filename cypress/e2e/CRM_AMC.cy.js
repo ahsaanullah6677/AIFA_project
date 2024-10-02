@@ -14,7 +14,7 @@ describe('AMC', () => {
       weblaunch();
       Login();
       cy.wait(1000);
-
+     //View AMC page
       cy.get('span').contains('AMC').click();
       cy.wait(1000);
       cy.get('h4').should('have.text', 'AMC');
