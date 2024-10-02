@@ -93,8 +93,6 @@ describe('Leads', () => {
      cy.get('input[placeholder = "Address"]').should('be.visible').scrollIntoView().type('test adress'+text+"");
      cy.wait(1000);
      cy.get('button[type = "submit"]').contains('Save').scrollIntoView().click();
-
-     //this is 
      cy.wait(3000);
      cy.get('td').contains(text);
      cy.get('i[class = "fas fa-eye"]').eq(0).click();
