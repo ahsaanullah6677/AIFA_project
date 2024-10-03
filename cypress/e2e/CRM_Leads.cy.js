@@ -61,7 +61,7 @@ describe('Leads', () => {
 
     });
     
-     it.only('Add lead with new customer', () => {
+     it('Add lead with new customer', () => {
 
       weblaunch()
       Login()

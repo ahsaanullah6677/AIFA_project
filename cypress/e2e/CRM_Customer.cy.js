@@ -58,7 +58,7 @@ describe('Leads', () => {
 
     });
 
-     it.only('Add new Customer', () => {
+     it('Add new Customer', () => {
       weblaunch();
       Login();
       cy.wait(1000);
