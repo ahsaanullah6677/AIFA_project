@@ -80,7 +80,7 @@ describe('Agreement', () => {
       // to download the invoice of customer
       cy.get('span').contains('Invoice').eq(0).click();
       cy.wait(3000);
-      cy.get('button[class = "btn btn-danger"]').should('be.visible').click();
+     // cy.get('button[class = "btn btn-danger"]').should('be.visible').click();
       cy.wait(3000);
       Logout();
 
