@@ -30,5 +30,21 @@ export function Login(){
     
     }
 
+    export function randomvariablestring(){
+
+        var text = "";
+        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    
+        for (var i = 0; i < 7; i++)
+          text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+    }
+
+    export function randomitegir(){
+
+        const randomTenDigitNumber = Math.floor(1000000000 + Math.random() * 9000000000);
+
+    }
+
 
 
